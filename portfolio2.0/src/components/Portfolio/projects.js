@@ -27,12 +27,9 @@ function Projects(active) {
             <h1>{item.name}</h1>
             <img src={item.image} style={{ height: 500, width: 500 }} alt="" />
             <p>{item.description}</p>
-            <p src="{item.github}" target="_blank" rel="noopener noreferrer">
-              github:click here
-            </p>
-            <p href="{item.deployed}" target="_blank">
-              deployed: click here
-            </p>
+            <a href={`${item.github}`}>github</a>
+            <br></br>
+            <a href={`${item.deployed}`}>deployed</a>
           </div>
         );
       })}
@@ -42,12 +39,9 @@ function Projects(active) {
             <h1>{item.name}</h1>
             <img src={item.image} style={{ height: 500, width: 500 }} alt="" />
             <p>{item.description}</p>
-            <p href="{item.github}" target="_blank">
-              github
-            </p>
-            <p href="{item.deployed}" target="_blank">
-              deployed
-            </p>
+            <a href={`${item.github}`}>github</a>
+            <br></br>
+            <a href={`${item.deployed}`}>deployed</a>
           </div>
         );
       })}

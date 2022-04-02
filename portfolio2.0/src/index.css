@@ -353,6 +353,10 @@ textarea {
     top: 50%;
     transform: translateY(-50%);
   }
+  .row {
+    display: block;
+    margin: 0 100px 0 auto;
+  }
 
   h2 {
     font-size: 1.5rem;
