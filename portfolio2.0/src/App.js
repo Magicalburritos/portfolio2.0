@@ -1,8 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
 import Footer from './components/Footer';
 import Header from './components/Header';
+import React, { useState } from 'react';
+import Contact from './components/Contact';
 function App() {
+  const [currentTab, setCurrentTab] = useState('about');
+
+  // This function checks to see which tab is selected and then generates the appropriate tab.
+  const renderTab = () => {
+    switch (currentTab) {
+      case 'about':
+        return <About />;
+      case 'portfolio':
+        return <Portfolio />;
+      case 'contact':
+        return <Contact />;
+      case 'resume':
+        return <Resume />;
+      default:
+        return null;
+    }
+  };
+
   return (
     <div>
       <div className="mobile-header">
