@@ -23,19 +23,31 @@ function Projects(active) {
     <div className="row">
       {col1.map((item, index) => {
         return (
-          <div className="col">
+          <div className="col-lg-4 col-md-6 col-sm-6 col-9">
             <h1>{item.name}</h1>
             <img src={item.image} style={{ height: 500, width: 500 }} alt="" />
             <p>{item.description}</p>
+            <p src="{item.github}" target="_blank" rel="noopener noreferrer">
+              github:click here
+            </p>
+            <p href="{item.deployed}" target="_blank">
+              deployed: click here
+            </p>
           </div>
         );
       })}
       {col2.map((item, index) => {
         return (
-          <div className="col">
+          <div className="col-lg-4 col-md-6 col-sm-6 col-9">
             <h1>{item.name}</h1>
             <img src={item.image} style={{ height: 500, width: 500 }} alt="" />
             <p>{item.description}</p>
+            <p href="{item.github}" target="_blank">
+              github
+            </p>
+            <p href="{item.deployed}" target="_blank">
+              deployed
+            </p>
           </div>
         );
       })}
