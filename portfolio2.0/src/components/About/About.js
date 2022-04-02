@@ -16,18 +16,15 @@ function About(active) {
       </div>
       <div>
         <p>
-            Hey I’m Joe and I have worked as a chef for 11 years and decided I
-          wanted a career change. I have lived in Charlotte for a majority of my
-          life. I enjoy learning new things and enjoy new challenges. I am
-          presently in a coding boot camp hosted by UNCC. We are learning the
-          MERN stack, presently we have just completed html, css, git, nodejs,
-          express, and sql. I will be updating this portfolio website as I learn
-          different things throughout the course. My first project was a simple
-          website called Run-Buddy, in which I learned git commands, created a
-          repository and hosted it using GitHub. The website includes a navbar,
-          hero image, about section, and contact section. I will be updating
-          this portfolio website as I get more projects completed and learn more
-          technologies. Thanks for stopping in. -Joe.
+          Hello, I'm Joe. I have worked as a chef for 11 years but decided that
+          it was time for a change in career. I have lived in Charlotte for the
+          majority of my life and I enjoy using and learning about technology. I
+          am currently in a coding boot camp hosted by UNCC. We are learning the
+          MERN stack and so far have completed lessons on html, css, git,
+          nodejs, express and sql. My first project was a simple website in
+          which I learned git commands, created a repository and hosted it using
+          GitHub. I will be updating this portfolio website as I learn and
+          accomplish more throughout the course. Thanks for stopping in. -Joe.
         </p>
       </div>
     </section>

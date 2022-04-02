@@ -20,7 +20,7 @@ const Project = [
     image:
       'https://raw.githubusercontent.com/Magicalburritos/joe-ReactPortfolio/main/reactportfolio/src/assets/Images/foodanddrink.jpg',
     description: 'Gets recipes for food and drinks written in JavaScript',
-    github: '',
+    github: 'https://github.com/afebre1027/food-drink-app',
     deployed: 'https://afebre1027.github.io/food-drink-app/',
   },
   {
@@ -29,7 +29,7 @@ const Project = [
       'https://github.com/Magicalburritos/Joe-Portfolio/blob/main/assets/imgs/readMe.png?raw=true',
     description: 'Uses node to generate readme and licenses',
     github: 'https://github.com/Magicalburritos/week9-readme',
-    deployed: '',
+    deployed: 'https://github.com/Magicalburritos/week9-readme',
   },
   {
     name: 'Password Generator',
@@ -56,8 +56,16 @@ const Project = [
       'https://raw.githubusercontent.com/Magicalburritos/joe-ReactPortfolio/main/reactportfolio/src/assets/Images/budget.png',
     description:
       'The Budget Tracker is a progressive web application that uses IndexedDB and service workers to be fully functional offline',
-    github: '',
+    github: 'https://github.com/Magicalburritos/budget-tracker19',
     deployed: 'https://morning-reef-57138.herokuapp.com/',
+  },
+  {
+    name: 'Run-Buddy',
+    image:
+      'https://raw.githubusercontent.com/Magicalburritos/portfolio2.0/main/portfolio2.0/src/assets/images/runbuddy.jpg',
+    description: 'Simple website built with HTML and CSS',
+    github: 'https://github.com/Magicalburritos/run-buddy',
+    deployed: 'https://magicalburritos.github.io/run-buddy/',
   },
   // to expand in the feature
   // {
