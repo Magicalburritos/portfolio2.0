@@ -1,10 +1,10 @@
-import Footer from './components/Footer';
-import Header from './components/Header';
+import Footer from './components/Footer/Footer';
+import Header from './components/Header/Header';
 import React, { useState } from 'react';
-import Contact from './components/Contact';
-import Resume from './components/Resume';
-import About from './components/About';
-import Portfolio from './components/Portfolio';
+import Contact from '../src/components/Contact/Contact';
+import Resume from '../src/components/Resume/Resume';
+import About from './components/About/About';
+import Portfolio from './components/Portfolio//projects';
 
 function App() {
   const [currentTab, setCurrentTab] = useState('about');

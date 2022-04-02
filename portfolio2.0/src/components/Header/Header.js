@@ -1,5 +1,5 @@
 import React from 'react';
-import Navigation from '../Navigation';
+import Nav from '../Nav/Nav';
 
 function Header(props) {
   const { currentTab, setCurrentTab } = props;
@@ -10,10 +10,7 @@ function Header(props) {
         <h2>Owais' React Portfolio</h2>
       </div>
       <div>
-        <Navigation
-          currentTab={currentTab}
-          setCurrentTab={setCurrentTab}
-        ></Navigation>
+        <Nav currentTab={currentTab} setCurrentTab={setCurrentTab}></Nav>
       </div>
     </header>
   );
