@@ -7,7 +7,7 @@ function Header(props) {
   return (
     <header>
       <div>
-        <h2>Owais' React Portfolio</h2>
+        <h2>Joseph Hudak</h2>
       </div>
       <div>
         <Nav currentTab={currentTab} setCurrentTab={setCurrentTab}></Nav>
