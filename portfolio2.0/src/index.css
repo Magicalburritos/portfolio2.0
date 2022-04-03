@@ -313,6 +313,7 @@ textarea {
   }
   .row {
     display: block;
+    grid-template-columns: 1fr 1fr 1fr;
     margin: 0 100px 0 auto;
   }
 
