@@ -165,7 +165,7 @@ nav a:hover {
 }
 
 nav li {
-  color: teal;
+  color: black;
   cursor: pointer;
 }
 
@@ -327,11 +327,6 @@ textarea {
 
   .mobile-header {
     width: 110%;
-  }
-
-  .mobile-row {
-    display: block;
-    margin: 0 100px 0 auto;
   }
 
   .mobile-view {
