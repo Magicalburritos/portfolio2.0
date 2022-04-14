@@ -44,7 +44,7 @@ const Project = [
   {
     name: 'Note Taker',
     image:
-      'https://github.com/Magicalburritos/portfolio2.0/blob/main/src/assets/images/notetaker.png',
+      'https://raw.githubusercontent.com/Magicalburritos/portfolio2.0/main/src/assets/images/notetaker.png',
     description: 'Simple note taking app using Express and Node',
     github: 'https://github.com/Magicalburritos/week11-Note-Taker',
     deployed: 'https://notetakerjoehudak.herokuapp.com/',
@@ -62,7 +62,7 @@ const Project = [
   {
     name: 'Run-Buddy',
     image:
-      'https://raw.githubusercontent.com/Magicalburritos/portfolio2.0/main/portfolio2.0/src/assets/images/runbuddy.jpg',
+      'https://raw.githubusercontent.com/Magicalburritos/portfolio2.0/main/src/assets/images/runbuddy.jpg',
     description: 'Simple website built with HTML and CSS',
     github: 'https://github.com/Magicalburritos/run-buddy',
     deployed: 'https://magicalburritos.github.io/run-buddy/',
