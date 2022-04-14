@@ -1,6 +1,7 @@
 {
   "name": "portfolio2.0",
   "version": "0.1.0",
+  "homepage": "https://Magicalburritos.github.io/portfolio2.0",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.5.0",
