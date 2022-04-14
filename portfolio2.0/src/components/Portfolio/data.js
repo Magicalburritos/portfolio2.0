@@ -67,6 +67,14 @@ const Project = [
     github: 'https://github.com/Magicalburritos/run-buddy',
     deployed: 'https://magicalburritos.github.io/run-buddy/',
   },
+  {
+    name: 'The Gamer Connection',
+    image:
+      'https://github.com/Magicalburritos/joe-ReactPortfolio/blob/main/reactportfolio/src/assets/Images/ScreenShot%20Tool%20-20220413203122.png',
+    description: 'a MERN and SPA application using react',
+    github: 'https://github.com/afebre1027/FinalProject',
+    deployed: 'https://murmuring-forest-39811.herokuapp.com/',
+  },
   // to expand in the feature
   // {
   //   name: '',
